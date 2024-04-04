@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Librería de Animaciones CSS</title>
+  <link rel="stylesheet" href="/css/animations-modern.main.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    .box {
+      width: 240px;
+      height: 240px;
+      background-color: #007bff;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      border-radius: 10px;
+      animation-duration: 1s;
+      transition: animation-duration 0.5s;
+      animation-play-state: paused;
+    }
+
+    .box.active {
+      animation-play-state: running;
+    }
+
+    .play-menu {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .menu:hover .submenu {
+      display: block;
+    }
+
+    .submenu a {
+      display: block;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="play-menu menu">
+  Reproducir Animación
+  <div class="submenu">
+    <a class="animation-trigger" data-animation="fadeIn">FadeIn</a>
+    <a class="animation-trigger" data-animation="fadeOut">FadeOut</a>
+    <a class="animation-trigger" data-animation="shake">Shake</a>
+    <a class="animation-trigger" data-animation="bounce">Bounce</a>
+    <a class="animation-trigger" data-animation="pulse">Pulse</a>
+    <a class="animation-trigger" data-animation="spin">Spin</a>
+    <a class="animation-trigger" data-animation="slideIn">SlideIn</a>
+    <a class="animation-trigger" data-animation="slideOut">SlideOut</a>
+    <a class="animation-trigger" data-animation="flash">Flash</a>
+    <a class="animation-trigger" data-animation="rubberBand">RubberBand</a>
+    <a class="animation-trigger" data-animation="swing">Swing</a>
+    <a class="animation-trigger" data-animation="wobble">Wobble</a>
+    <a class="animation-trigger" data-animation="rollIn">RollIn</a>
+    <a class="animation-trigger" data-animation="rollOut">RollOut</a>
+    <a class="animation-trigger" data-animation="heartBeat">HeartBeat</a>
+    <a class="animation-trigger" data-animation="tada">Tada</a>
+    <a class="animation-trigger" data-animation="jello">Jello</a>
+    <a class="animation-trigger" data-animation="jackInTheBox">JackInTheBox</a>
+    <a class="animation-trigger" data-animation="puffIn">puffIn</a>
+    <a class="animation-trigger" data-animation="puffOut">puffOut</a>
+    <a class="animation-trigger" data-animation="fadeInDown">fadeInDown</a>
+    <a class="animation-trigger" data-animation="fadeOutUp">fadeOutUp</a>
+    <a class="animation-trigger" data-animation="rotateIn">rotateIn</a>
+    <a class="animation-trigger" data-animation="rotateOut">rotateOut</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="box">Seleccione una animación</div>
+</div>
+
+<script>
+  const animationTriggers = document.querySelectorAll('.animation-trigger');
+  const box = document.querySelector('.box');
+
+  animationTriggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const animation = trigger.getAttribute('data-animation');
+      box.classList = 'box ' + animation + ' active';
+      box.textContent = animation + ' Animation';
+    });
+  });
+</script>
+
+</body>
+</html>
