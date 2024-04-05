@@ -1,0 +1,14 @@
+{
+  "name": "sstudiosdev-lib",
+  "version": "1.0.0",
+  "description": "Official sstudiosdev css design and animation library",
+  "main": "lib/sstudios-lib-animated.main.css",
+  "homepage": "https://sstudiosdev.is-a.dev/",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Sstudios-Dev/Sstudiosdev-lib-css"
+  },
+  "keywords": ["css", "styles", "library"],
+  "author": "SstudiosDev",
+  "license": "MIT"
+}
