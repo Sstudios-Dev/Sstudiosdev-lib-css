@@ -74,4 +74,4 @@ Contributions are welcome! If you have ideas to enhance this library, please ope
 Sstudiosdev-lib is released under the MIT License. See the LICENSE file for more details.
 
 # Contact
-For any questions or suggestions, feel free to reach out to the Sstudiosdev team via sstudiosdev@gmail.com.
+For any questions or suggestions, feel free to reach out to the Sstudiosdev team via sstudiosdev@gmail.com
