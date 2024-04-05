@@ -67,6 +67,9 @@ document.addEventListener('DOMContentLoaded', function() {
 # Contribution
 Contributions are welcome! If you have ideas to enhance this library, please open an issue or submit a pull request. Make sure to follow the contribution guidelines.
 
+  <a href="https://github.com/Sstudiosdev"><img src="https://avatars.githubusercontent.com/u/149289426?v=4" height="128" width="128" /></a>
+    <a href="https://github.com/StaffV77"><img src="https://avatars.githubusercontent.com/u/107765373?v=4" height="128" width="128" /></a>
+
 # License
 Sstudiosdev-lib is released under the MIT License. See the LICENSE file for more details.
 
