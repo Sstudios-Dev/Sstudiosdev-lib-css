@@ -25,6 +25,8 @@ Or you can include the CSS file directly in your project:
 <link rel="stylesheet" href="/node_modules/sstudiosdev-lib/lib/css/sstudios-lib-style.main.css">
 ```
 
+[View complete list of design components](https://github.com/Sstudios-Dev/Sstudiosdev-lib-css/tree/main/docs/css/design)
+
 # Usage
 Once you've installed the library into your project, you can start using its styles and functions as follows:
 
@@ -34,6 +36,8 @@ To apply a pre-defined CSS animation, simply add the corresponding class to the 
 ```html
 <div class="fadeIn">Welcome!</div>
 ```
+
+[See complete list of animations](https://github.com/Sstudios-Dev/Sstudiosdev-lib-css/tree/main/docs/css/animations)
 
 ## JavaScript Functions
 To utilize the included JavaScript functions, simply import the module and call the desired function. For example:
@@ -63,6 +67,8 @@ document.addEventListener('DOMContentLoaded', function() {
 ```js
 <script src="/node_modules/sstudiosdev-lib/lib/js/formValidation.js"></script>
 ```
+
+[See complete list of js functions](https://github.com/Sstudios-Dev/Sstudiosdev-lib-css/tree/main/docs/js)
 
 # Contribution
 Contributions are welcome! If you have ideas to enhance this library, please open an issue or submit a pull request. Make sure to follow the contribution guidelines.
