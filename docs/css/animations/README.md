@@ -198,4 +198,44 @@ All animations are from the latest version of the npm library.
 ```
 
 # Button animations
+Remember that these animations work best when using our library in the design part.
 
+# btn-GlowHover
+
+```html
+    <div class="btn btn-GlowHover">
+        This is an example button
+    </div>
+```
+
+# btn-scale
+
+```html
+    <div class="btn btn-scale">
+        This is an example button
+    </div>
+```
+
+# btn-shadow
+
+```html
+    <div class="btn btn-shadow">
+        This is an example button
+    </div>
+```
+
+# btn-pulse
+
+```html
+    <div class="btn btn-pulse">
+        This is an example button
+    </div>
+```
+
+# btn-bounce
+
+```html
+    <div class="btn btn-bounce">
+        This is an example button
+    </div>
+```
