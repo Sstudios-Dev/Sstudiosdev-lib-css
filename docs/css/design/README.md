@@ -254,3 +254,21 @@ Styling for individual tags.
 ```html
 <span class="tag">Tag</span>
 ```
+
+# flip-card
+Sure, a flip-card is basically an online card that displays information on both sides and allows the user to "flip" it to see the other side with more details or content. It's an interactive and engaging way to present information on websites and applications.
+
+## Example:
+
+```html
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      Front Content
+    </div>
+    <div class="flip-card-back">
+      Back Content
+    </div>
+  </div>
+</div>
+```
